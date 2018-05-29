@@ -1,12 +1,12 @@
-.initially-showing, .initially-showing2 {
+.initially-showing, .initially-showing2, .initially-hidden3 {
   display: none;
 }
 
-.clickable, .clickable2 {
+.clickable, .clickable2, .clickable3 {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover, .clickable2:hover {
+.clickable:hover, .clickable2:hover, .clickable3:hover {
   text-decoration: underline;
 }

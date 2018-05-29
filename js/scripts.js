@@ -10,3 +10,8 @@ $(document).ready(function() {
     $(".initially-hidden2").toggle();
   });
 });
+$(document).ready(function() {
+  $(".clickable3").click(function() {
+    $(".initially-hidden3").slideToggle();
+  });
+});
